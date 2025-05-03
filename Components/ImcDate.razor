@@ -1,0 +1,10 @@
+<span>
+    <small>
+        @CreatedAt.ToString("dd/MM/yyyy")
+    </small>
+</span>
+
+@code
+{
+    [Parameter][EditorRequired] public DateTime CreatedAt { get; set; }
+}
